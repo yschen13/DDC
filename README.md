@@ -1,7 +1,7 @@
 # Dynamical differential covariance (DDC)
 All scripts were carefully annotated. Below is a quick summary.
 ## Connectivity estimation:
-  * estimators.m: Common estimators including covariance, precision matrix <x,x>, nonlinear averaging matrix <R(x),x>, first-order derivative computed by symmetric difference quotient 
+  * estimators.m: Common estimators including covariance <x,x>, Precision matrix, nonlinear averaging matrix <R(x),x>, dCov computed by symmetric difference quotient 
   * dCov_numerical.m: dCov calculated by different numerical estimations of the time derivative
   * DDC calculation: matrix product of dCov and  <x,x>^{-1} or <R(x),x>^{-1}
 ## Network simulations:
