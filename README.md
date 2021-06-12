@@ -15,4 +15,4 @@ All scripts were carefully annotated. Below is a quick summary.
 ## HCP dataset
 * rs-fMRI time series data available through https://www.humanconnectome.org
 * dMRI dataset available through https://www.eneuro.org/content/8/1/ENEURO.0416-20.2020/tab-article-info
-* ATLAS_HCP_dMRIparcel_to_IC100node_connectivity.m: convert parcel level dMRI strength to IC-level dMRI strength
+* ATLAS_HCP_dMRIparcel_to_IC100node_connectivity.m: convert parcel-level dMRI strength to IC-level dMRI strength
