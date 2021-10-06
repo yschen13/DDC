@@ -1,5 +1,5 @@
 # Dynamical differential covariance (DDC)
-Checkout the latest manuscript version through bioRxiv: https://www.biorxiv.org/content/10.1101/2021.06.18.448901v2.full.pdf+html \\
+Checkout the latest manuscript version through bioRxiv: https://www.biorxiv.org/content/10.1101/2021.06.18.448901v2.full.pdf+html \n
 All scripts were carefully annotated. Below is a quick summary.
 ## Connectivity estimation:
   * estimators.m: Common estimators including covariance <x,x>, Precision matrix, nonlinear averaging matrix <R(x),x>, dCov computed by symmetric difference quotient 
