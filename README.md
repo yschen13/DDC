@@ -4,7 +4,7 @@ All scripts were carefully annotated. Below is a quick summary.
 ## Connectivity estimation:
   * estimators.m: Common estimators including covariance <x,x>, Precision matrix, nonlinear averaging matrix <R(x),x>, dCov computed by symmetric difference quotient 
   * dCov_numerical.m: dCov calculated by different numerical estimations of the time derivative
-   * derivative_123.m: Supporting file for dCov_numerical.m
+   ** derivative_123.m: Supporting file for dCov_numerical.m
   * DDC calculation: matrix product of dCov and  <x,x>^{-1} or <R(x),x>^{-1}
 ## Network simulations:
   * Linear_simulation.m: simulation of linear stochastic systems
