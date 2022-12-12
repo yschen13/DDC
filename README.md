@@ -18,3 +18,14 @@ All scripts were carefully annotated. Below is a quick summary.
 * rs-fMRI time series data available through https://www.humanconnectome.org
 * dMRI dataset available through https://www.eneuro.org/content/8/1/ENEURO.0416-20.2020/tab-article-info
 * ATLAS_HCP_dMRIparcel_to_IC100node_connectivity.m: convert parcel-level dMRI strength to IC-level dMRI strength
+## Demo (MATLAB syntax): 
+For HCP ICA preprocessed time series: 
+     
+     TR = 0.72; 
+     [T, N] = size(V); % number of timepoints x number of nodes
+     V_obs = zscore(V)
+     [dCov1, dCov2,~,~] = dCov_numerical(V_obs,TR);
+     [Cov,Precision,B,~] = estimators(V_obs,prctile(V_obs(:),50),TR);
+     Delta_L = dCov2*Precision
+     Delta_ReLU = dCov2*B
+
