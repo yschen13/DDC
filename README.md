@@ -6,7 +6,7 @@ All scripts were carefully annotated. Below is a quick summary.
   * dCov_numerical.m: dCov calculated by different numerical estimations of the time derivative
   * derivative_123.m: Supporting file for dCov_numerical.m
   * DDC calculation: matrix product of dCov and  <x,x>^{-1} or <R(x),x>^{-1}
-## Evaluating the significance of estimated connections through PSD Bootstrapping
+## PSD Bootstrapping (evaluate significance of connections)
  * PSDBootstrap_example.m: generate null timeseries under the null hypothesis that each time series is independent; calculate the null FC matrices
  * PSDBootstrap_Getmdl.m: fit the best AR model to the order of q for each time series
 ## Network simulations:
